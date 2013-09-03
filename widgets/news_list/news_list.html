@@ -1,0 +1,15 @@
+<h1 class="widget-title title" data-bind="title"></h1>
+
+<ul class="news-summary-list">
+  <li data-foreach-item="newsItems">
+    <div class="news-summary" data-bind='item.Description | truncate 106'></div>
+    <div class="meta-info">
+      <span data-bind='item.Source'></span>
+      <span>-</span>
+      <span data-bind='item.Date'></span>
+    </div>
+  </li>
+</ul>
+
+<!-- Optional: If you would like to show an Updated At message at the bottom of the widget -->
+<!-- <p class="updated-at" data-bind="updatedAtMessage"></p> -->

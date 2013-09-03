@@ -1,0 +1,1 @@
+Uses searchbing gem : https://github.com/rcullito/searchbing

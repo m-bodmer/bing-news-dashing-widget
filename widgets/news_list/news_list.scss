@@ -1,0 +1,74 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #12b0c5;
+$value-color:       #fff;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$label-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-list styles
+// ----------------------------------------------------------------------------
+.widget-news-list {
+
+  background-color: $background-color;
+  // Default widget has vertical-align: middle, so override that style
+  vertical-align: top !important;
+
+  .widget-title {
+    float: left;
+    margin-left: 15px;
+  }
+
+  .title {
+    color: $title-color;
+  }
+
+  // List styles
+  .news-summary-list {
+    clear: both;
+    margin: 0 15px;
+    text-align: left;
+    color: $label-color;
+  }
+
+  .news-summary-list li {
+    margin-bottom: 5px;
+  }
+
+  .news-summary-list li:not(:first-child) {
+    // Give a top margin to all list items except the 1st one
+    margin-top: 21px;
+  }
+
+  .list-nostyle {
+    list-style: none;
+  }
+
+  .news-topic {
+    color: $label-color;
+  }
+
+  .news-summary {
+    font-size: 18px;
+    font-weight: 600;
+    color: $value-color;
+  }
+
+  .meta-info {
+    font-size: 16px;
+  }
+
+  // Extra styles
+
+  .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .more-info {
+    color: $moreinfo-color;
+  }
+
+}

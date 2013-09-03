@@ -1,0 +1,25 @@
+---
+valuation: |+
+  data: {"current":41,"last":93,"id":"valuation","updatedAt":1378166631}
+
+karma: |+
+  data: {"current":15877,"last":129367,"id":"karma","updatedAt":1378166631}
+
+synergy: |+
+  data: {"value":52,"id":"synergy","updatedAt":1378166631}
+
+convergence: |+
+  data: {"points":[{"x":4559,"y":32},{"x":4560,"y":16},{"x":4561,"y":16},{"x":4562,"y":17},{"x":4563,"y":41},{"x":4564,"y":9},{"x":4565,"y":45},{"x":4566,"y":19},{"x":4567,"y":46},{"x":4568,"y":2}],"id":"convergence","updatedAt":1378166631}
+
+buzzwords: |+
+  data: {"items":[{"label":"Turn-key","value":10},{"label":"Paradigm shift","value":4},{"label":"Pivoting","value":0},{"label":"Synergy","value":9},{"label":"Web 2.0","value":27},{"label":"Streamlininess","value":22},{"label":"Leverage","value":0},{"label":"Exit strategy","value":19},{"label":"Enterprise","value":27}],"id":"buzzwords","updatedAt":1378166631}
+
+welcome: |+
+  data: {"text":"Hey, Look what I can do!","id":"welcome","updatedAt":1377470410}
+
+googleNews: |+
+  data: {"newsItems":["Toronto","Best city in Canada"],"title":"New title","id":"googleNews","updatedAt":1377470436}
+
+fetchNews: |+
+  data: {"newsItems":[{"__metadata":{"uri":"https://api.datamarket.azure.com/Data.ashx/Bing/Search/News?Query='500px'&$skip=1&$top=1","type":"NewsResult"},"ID":"ddd9a055-476e-4206-9859-eeb808660597","Title":"Walking through the woods with Leigh Gill","Url":"http://www.the-dispatch.com/article/20130814/LIVING/308149988","Source":"Dispatch","Description":"he stops — suddenly — and bends down to inspect a small black spider covered in small yellow, white and brownish spots. It's too small to photograph, Gill says as he points out his finger and touches the insect's abdomen. \"He's pretty ...","Date":"Aug. 14 2013 at 11:54AM"},{"__metadata":{"uri":"https://api.datamarket.azure.com/Data.ashx/Bing/Search/News?Query='500px'&$skip=2&$top=1","type":"NewsResult"},"ID":"c98f5b92-1f1e-4ef3-b2b6-0f6bb7f8517d","Title":"You've Never Seen The Alps Like This Before (PHOTOS)","Url":"http://www.huffingtonpost.com/2013/08/28/amazing-alps-photography_n_3830100.html","Source":"The Huffington Post","Description":"Load up your camping gear -- these photos will make you yearn for the mountains. Italian Lukas Furlan, a student at the Vienna University of Technology, took these photos while hiking in the northern Italian province of South Tyrol. When not in ...","Date":"Aug. 28 2013 at  4:59PM"},{"__metadata":{"uri":"https://api.datamarket.azure.com/Data.ashx/Bing/Search/News?Query='500px'&$skip=3&$top=1","type":"NewsResult"},"ID":"c8fd6b26-a751-4630-8556-9da5f6ab8880","Title":"Vancouver’s GROW Conference Shines A Spotlight On Canada’s Growing Startup Scene","Url":"http://techcrunch.com/2013/08/18/grow-vancouver-2013/","Source":"TechCrunch","Description":"From Google Ventures’ Daniel Burka and Jake Knapp talking about how to build prototypes quickly and effectively, TechCrunch contributor Nir Eyal talking about how to get users hooked to your app and 500px CEO Oleg Gutsol talking about how to ...","Date":"Aug. 19 2013 at  9:32AM"}],"title":"News for: 500px","id":"fetchNews","updatedAt":1378157515}
+
